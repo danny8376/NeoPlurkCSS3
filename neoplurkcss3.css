@@ -53,7 +53,7 @@ body {
 /* 河道主框架 */
 #timeline_holder {
 	margin-top: 60px !important;
-	height: 80% !important;
+	height: 85% !important;
 	min-height: 470px; 
 	background-image: none;
 	background: #EEEEEE; /* Old browsers */
@@ -73,7 +73,7 @@ body {
 /* 整體框架 */
 #timeline_bg,
 #timeline_fg {
-	height: 78% !important;
+	height: 79.5% !important;
 	min-height: 470px; 
 	background-image:  url(http://3.bp.blogspot.com/-i_8WSC3RNXc/UfQcimyCDRI/AAAAAAAAAM8/HgDGOa055sM/s0/0002420_kac1012_A_1_HoriFlip.JPG); /* 河道背景放這 */
 	background-position: center;
@@ -85,9 +85,9 @@ body {
 }
 /* 噗能出現的範圍 */
 #timeline_cnt {
-	top: 10% !important;
-	height: 70% !important;
-	padding-top: 2% !important;
+	top: 15% !important;
+	height: 65% !important;
+	padding-top: 1% !important;
 }
 .block_bg,
 .block_cnt,
