@@ -73,7 +73,7 @@ body {
 /* 整體框架 */
 #timeline_bg,
 #timeline_fg {
-	height: 79.5% !important;
+	height: 79.2% !important;
 	min-height: 470px; 
 	background-image:  url(http://3.bp.blogspot.com/-i_8WSC3RNXc/UfQcimyCDRI/AAAAAAAAAM8/HgDGOa055sM/s0/0002420_kac1012_A_1_HoriFlip.JPG); /* 河道背景放這 */
 	background-position: center;
@@ -156,7 +156,7 @@ body {
 	text-shadow: 1px 1px 3px black;
 }
 #updater { 
-	top: 80% !important;
+	top: 87% !important;
 	background: none !important;
 	background-color: rgba(0,0,0,0.5) !important;
 	padding: 5px;
@@ -319,7 +319,7 @@ body {
 
 /* 向左向右回到最前按鈕 */
 .browse_button {
-	top: 70%;
+	top: 75%;
 }
 
 /* 發文訊息面板 */
