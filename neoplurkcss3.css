@@ -441,7 +441,8 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	clear: both !important;
 }
 /* 資訊欄縮排 */
-.dash-segment:nth-child(1)
+/*.dash-segment:nth-child(1)*/
+.dash-segment-profile
 {
 	position: relative !important;
 	width: 320px !important;
@@ -451,8 +452,13 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	-o-transition: left 0.5s ease-out;
 	transition: left 0.5s ease-out;
 }
+.dash-segment-profile .segment-content
+{
+	position: relative;
+}
 /* 卡馬欄縮排 */
-.dash-segment:nth-child(2)
+/*.dash-segment:nth-child(2)*/
+.dash-segment-stats
 {
 	position: relative !important;
 	left: -5px;
@@ -462,8 +468,10 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	transition: left 0.5s ease-out;
 }
 /* 好友粉絲欄縮排 */
-.dash-segment:nth-child(3),
-.dash-segment:nth-child(4)
+/*.dash-segment:nth-child(3),
+.dash-segment:nth-child(4)*/
+.dash-segment-friends,
+.dash-segment-fans
 {
 	position: relative !important;
 	left: -45px;
@@ -481,7 +489,9 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	-o-transition: left 0.5s ease-out;
 	transition: left 0.5s ease-out;
 }
-.dash-segment:first-child:hover #dash-profile {
+/*.dash-segment:first-child:hover #dash-profile {*/
+.dash-segment-profile:hover #dash-profile
+{
 	height: 230px;
 }
 /* 各欄總設定 */
@@ -534,8 +544,8 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 }
 #dash-additional-info {
 	position: absolute;
-	top: 5px;
-	left: 20px;
+	top: 0px;
+	left: 15px;
 	width: 160px;
 }
 #relationship_container {
@@ -547,7 +557,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	position: relative !important;
 	top: -10px;
 	left: 0px;
-	height: 90%			!important;
+	height: 90% !important;
 	white-space: nowrap;
 }
 
