@@ -616,6 +616,9 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	text-shadow: 0px 0px 10px white;
 	font-weight: bold;
 }
+#karma_arrow {
+	position: absolute;
+}
 /* 狀態數值 */
 #dash-stats table td {
 	color: white !important;
